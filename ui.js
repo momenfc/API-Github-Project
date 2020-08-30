@@ -12,10 +12,10 @@ class UI {
                     <a class="btn-block btn btn-primary mt-1" target="_blank" href="${user.html_url}">View Profile</a>
                 </div>
                 <div class="col-md-9 mt-3">
-                    <span class="badge badge-primary">Repos: ${user.public_repos}</span>
-                    <span class="badge badge-warning">Gists: ${user.public_gists}</span>
-                    <span class="badge badge-success">Followers: ${user.followers}</span>
-                    <span class="badge badge-danger">Following: ${user.following}</span>
+                    <span class="badge badge-primary mb-1">Repos: ${user.public_repos}</span>
+                    <span class="badge badge-warning mb-1">Gists: ${user.public_gists}</span>
+                    <span class="badge badge-success mb-1">Followers: ${user.followers}</span>
+                    <span class="badge badge-danger mb-1">Following: ${user.following}</span>
                     <ul class="list-group mt-2">
                         <li class="list-group-item">Company: ${user.company}</li>
                         <li class="list-group-item">Blog: ${user.blog}</li>
@@ -40,10 +40,10 @@ class UI {
                         <a href="${repo.html_url}" target="_blank">${repo.name}</a>
                         </div>
                         <div class="col-md-6">
-                            <span class="badge badge-primary">Stars: ${repo.stargazers_count}</span>
-                            <span class="badge badge-warning">Watchers: ${repo.watchers}</span>
-                            <span class="badge badge-success">Forks: ${repo.forks}</span>
-                            <span class="badge badge-danger">Language: ${repo.language}</span>
+                            <span class="badge badge-primary mb-1">Stars: ${repo.stargazers_count}</span>
+                            <span class="badge badge-warning mb-1">Watchers: ${repo.watchers}</span>
+                            <span class="badge badge-success mb-1">Forks: ${repo.forks}</span>
+                            <span class="badge badge-danger mb-1">Lang: ${repo.language}</span>
                         </div>
                     </div>
                 </div>
